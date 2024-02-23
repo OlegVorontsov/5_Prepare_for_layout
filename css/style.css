@@ -236,11 +236,15 @@ body {
   font-size: 0;
 }
 
+.cards__list-list {
+  padding: 0;
+}
+
 .card__item {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  padding-left: 25px;
+  padding: 205px 25px 25px;
   margin-bottom: 25px;
   width: 572px;
   min-height: 505px;
@@ -273,7 +277,7 @@ body {
 }
 
 .card__title {
-  margin-top: 210px;
+  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 40px;
